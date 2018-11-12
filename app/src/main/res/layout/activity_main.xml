@@ -27,4 +27,14 @@
         android:text="Button"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText"
         app:layout_constraintStart_toEndOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/NMEA"
+        android:layout_width="346dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="252dp"
+        android:text="TextView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="137dp" />
+
 </android.support.constraint.ConstraintLayout>
